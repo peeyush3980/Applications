@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*******************************************************************************
+ * Copyright (c) 2005, 2010 Spring IDE Developers
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *     Spring IDE Developers - initial API and implementation
+ *******************************************************************************/
+ -->
+<feature
+      id="org.springframework.ide.eclipse.boot.dash.feature"
+      label="%featureName"
+      version="3.7.2.201511260958-RELEASE"
+      provider-name="%providerName"
+      plugin="org.springframework.ide.eclipse">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <plugin
+         id="org.springframework.ide.eclipse.boot.dash"
+         download-size="1902"
+         install-size="3065"
+         version="3.7.2.201511260958-RELEASE"
+         unpack="false"/>
+
+</feature>

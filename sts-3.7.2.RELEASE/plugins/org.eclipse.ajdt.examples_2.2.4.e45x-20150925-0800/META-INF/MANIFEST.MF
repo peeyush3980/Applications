@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Require-Bundle: org.eclipse.ui.ide,org.eclipse.core.runtime,org.eclips
+ e.core.resources,org.eclipse.ui,org.eclipse.jdt.core,org.eclipse.ajdt
+ .core
+Bundle-Vendor: %providerName
+Ant-Version: Apache Ant 1.9.4
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: ajdtExamples.jar
+Bundle-Version: 2.2.4.e45x-20150925-0800
+Bundle-Name: AspectJ Examples
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.ajdt.examples.AspectJExamplePlugin
+Created-By: 1.7.0_75-b13 (Oracle Corporation)
+Bundle-SymbolicName: org.eclipse.ajdt.examples; singleton:=true
+Bundle-RequiredExecutionEnvironment: J2SE-1.4
+
+Name: archive/spacewar.jar
+SHA-256-Digest: b6QL5c+JG7S7lb8/CQfyoukOmIdlvz06cy6qaIdSb5Y=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: G2hFTVPngfh5NUf96Pyy87A7XIE083udjEBFy4pUc/M=
+
+Name: archive/bean.jar
+SHA-256-Digest: i7zU+6B5OKhDmqp9M8NSlnidZodbK3BurSjC6D9UvYk=
+
+Name: archive/introduction.jar
+SHA-256-Digest: pxu/qwmhQGc4PQcfKXnm4JG/O9GxHSgrWX6nZRc3UCQ=
+
+Name: archive/tjp.jar
+SHA-256-Digest: Vm710exfwDCNeS0mkqwCM6/RhRev5jFsWTb74ia5Hf8=
+
+Name: plugin.properties
+SHA-256-Digest: SbFAegv/3qY6Rd3x+uLc9cf6V2QOPzRUYl034slvJPc=
+
+Name: schema/projectsetup.exsd
+SHA-256-Digest: nW+EYQPVuwIQAjbFHNwEQGU1aClTv2wVsQlqtxjz/mU=
+
+Name: plugin.xml
+SHA-256-Digest: Hwi7Xd5tcChXgfUHJCi7UDRgtYdkgILxr/fSApoWnGs=
+
+Name: about.html
+SHA-256-Digest: Zou0npn0qfCKRVjTOWfvcsgizJAClCvpMWgr81tFdag=
+
+Name: archive/tracing.jar
+SHA-256-Digest: ccu10SOKWOztTzh111OKpv+VZrTNc7uM/vL2cIUwh6M=
+
+Name: icons/newajprj_wiz.gif
+SHA-256-Digest: jsbep5zndMPmja67sidNHKiFS6wSkq0Xu3PPGf3C+Os=
+
+Name: ajdtExamples.jar
+SHA-256-Digest: Ic4xUGfwgToNI4/oNnURiug4rjgNNDhQ6Jheb4QGncA=
+
+Name: archive/telecom.jar
+SHA-256-Digest: rYLKITX2F003Bj5HWB7iFey7m2zv22V/OmTHeGwb8gk=
+
+Name: archive/observer.jar
+SHA-256-Digest: ynjDjQk4bEkg2Bd46OqzU/iMq1/m9ZqTzw8UEUH7tqI=
+
+Name: archive/org.eclipse.ajdt.examples.progressmon.jar
+SHA-256-Digest: +jHb4nhhcu9bTenOK4sOmta0XygY+62BrgnaZAziGSE=
+

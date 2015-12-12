@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.7.0_67
+Built-By: bamboo
+Created-By: Apache Maven
+Source-Control-Identifier: 9c3d2fee790046b86c7d30bafe30e83ab661e529
+Archiver-Version: Plexus Archiver
+
+Name: Third-Party-License.txt
+SHA-256-Digest: SzI7s4iSyd0MOy7JUThbV2a1kbPHWzdP0/l1Y9t78vo=
+
+Name: Apache-License-2.0.txt
+SHA-256-Digest: LZKgid+Mx1XquXHkTXk9qDiZCCPL9w0qZk9qfamxHzM=
+
+Name: p2.inf
+SHA-256-Digest: Fw5krUbNA/9NE0sVSeIj5dvDw5lKoaEJlJ87iDdh33w=
+
+Name: feature.xml
+SHA-256-Digest: T8JJAQdYlCd4w0I0Yt2uudJ9XRBCzZiSc+O6Kn1/gSI=
+
+Name: dual-license-cft.txt
+SHA-256-Digest: af0bzV4VDhB24scDf8WRIR/fB1XtwkIlqRroJRx7tg4=
+
+Name: Eclipse-Public-License-v1.0.html
+SHA-256-Digest: jYKh174GD2hnJ6JzYjqyP53vK27uZ7cLF19oYlXKDS8=
+
+Name: feature.properties
+SHA-256-Digest: YX4hitMWDp941ZXL/4m/XCPdVwjS324+RJPAzr0lexM=
+
