@@ -1,0 +1,128 @@
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.65
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Oct 9 2015 08:36:58 UTC
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.65.0
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.0
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk1.8.0_65\jre
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_65-b17
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\ApacheTomcat\apache-tomcat-7.0.65
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\ApacheTomcat\apache-tomcat-7.0.65
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\ApacheTomcat\apache-tomcat-7.0.65\conf\logging.properties
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=C:\ApacheTomcat\apache-tomcat-7.0.65\endorsed
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\ApacheTomcat\apache-tomcat-7.0.65
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\ApacheTomcat\apache-tomcat-7.0.65
+Dec 10, 2015 1:08:16 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\ApacheTomcat\apache-tomcat-7.0.65\temp
+Dec 10, 2015 1:08:16 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.33 using APR version 1.5.1.
+Dec 10, 2015 1:08:16 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Dec 10, 2015 1:08:17 AM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1m 19 Mar 2015)
+Dec 10, 2015 1:08:19 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Dec 10, 2015 1:08:19 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Dec 10, 2015 1:08:19 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5348 ms
+Dec 10, 2015 1:08:19 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Dec 10, 2015 1:08:19 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.65
+Dec 10, 2015 1:08:19 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\fileDownloader.war
+Dec 10, 2015 1:08:19 AM org.apache.catalina.loader.WebappClassLoaderBase validateJarFile
+INFO: validateJarFile(C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\fileDownloader\WEB-INF\lib\javax.servlet-api-3.1.0.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+Dec 10, 2015 1:08:21 AM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 10, 2015 1:08:22 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization started
+Dec 10, 2015 1:08:22 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing Root WebApplicationContext: startup date [Thu Dec 10 01:08:22 IST 2015]; root of context hierarchy
+Dec 10, 2015 1:08:22 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext loadBeanDefinitions
+INFO: Registering annotated classes: [class com.dcp.springmvc.configuration.DCPConfiguration]
+Dec 10, 2015 1:08:23 AM org.springframework.web.servlet.handler.SimpleUrlHandlerMapping registerHandler
+INFO: Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+Dec 10, 2015 1:08:23 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/download/{type}/{name}],methods=[GET]}" onto public void com.dcp.springmvc.controller.FileDownloadController.downloadFile(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String) throws java.io.IOException
+Dec 10, 2015 1:08:23 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping register
+INFO: Mapped "{[/ || /welcome],methods=[GET]}" onto public java.lang.String com.dcp.springmvc.controller.FileDownloadController.getHomePage(org.springframework.ui.ModelMap)
+Dec 10, 2015 1:08:24 AM org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter initControllerAdviceCache
+INFO: Looking for @ControllerAdvice: Root WebApplicationContext: startup date [Thu Dec 10 01:08:22 IST 2015]; root of context hierarchy
+Dec 10, 2015 1:08:24 AM org.springframework.web.context.ContextLoader initWebApplicationContext
+INFO: Root WebApplicationContext: initialization completed in 2575 ms
+Dec 10, 2015 1:08:24 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [246] milliseconds.
+Dec 10, 2015 1:08:24 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization started
+Dec 10, 2015 1:08:24 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext prepareRefresh
+INFO: Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 10 01:08:24 IST 2015]; parent: Root WebApplicationContext
+Dec 10, 2015 1:08:25 AM org.springframework.web.servlet.DispatcherServlet initServletBean
+INFO: FrameworkServlet 'dispatcher': initialization completed in 68 ms
+Dec 10, 2015 1:08:26 AM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\fileDownloader.war has finished in 6,915 ms
+Dec 10, 2015 1:08:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\docs
+Dec 10, 2015 1:08:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\docs has finished in 517 ms
+Dec 10, 2015 1:08:26 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\examples
+Dec 10, 2015 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\examples has finished in 3,085 ms
+Dec 10, 2015 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\host-manager
+Dec 10, 2015 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\host-manager has finished in 873 ms
+Dec 10, 2015 1:08:30 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\manager
+Dec 10, 2015 1:08:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\manager has finished in 153 ms
+Dec 10, 2015 1:08:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\ROOT
+Dec 10, 2015 1:08:31 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\ApacheTomcat\apache-tomcat-7.0.65\webapps\ROOT has finished in 232 ms
+Dec 10, 2015 1:08:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Dec 10, 2015 1:08:31 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Dec 10, 2015 1:08:31 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 12224 ms
+Dec 10, 2015 1:08:48 AM org.apache.jasper.compiler.TldLocationsCache tldScanJar
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Dec 10, 2015 1:09:57 AM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Dec 10, 2015 1:09:57 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext doClose
+INFO: Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Dec 10 01:08:24 IST 2015]; parent: Root WebApplicationContext
+Dec 10, 2015 1:09:57 AM org.springframework.web.context.support.AnnotationConfigWebApplicationContext doClose
+INFO: Closing Root WebApplicationContext: startup date [Thu Dec 10 01:08:22 IST 2015]; root of context hierarchy
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-apr-8080"]
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-apr-8009"]
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-apr-8080"]
+Dec 10, 2015 1:09:57 AM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-apr-8009"]

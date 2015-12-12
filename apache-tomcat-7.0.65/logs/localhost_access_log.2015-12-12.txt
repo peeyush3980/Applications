@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Dec/2015:18:45:22 +0530] "GET /fileDownloade/welcome HTTP/1.1" 404 993
+127.0.0.1 - - [12/Dec/2015:18:45:29 +0530] "GET /fileDownload/welcome HTTP/1.1" 404 991
+127.0.0.1 - - [12/Dec/2015:18:45:48 +0530] "GET /FileDownload HTTP/1.1" 302 -
+127.0.0.1 - - [12/Dec/2015:18:45:50 +0530] "GET /FileDownload/ HTTP/1.1" 200 967
+127.0.0.1 - - [12/Dec/2015:18:45:50 +0530] "GET /FileDownload/static/css/bootstrap.css;jsessionid=4B81C734EFB95A293043FA1A6EF6E6F5 HTTP/1.1" 200 141414
+127.0.0.1 - - [12/Dec/2015:18:45:50 +0530] "GET /FileDownload/static/css/app.css;jsessionid=4B81C734EFB95A293043FA1A6EF6E6F5 HTTP/1.1" 200 711
+127.0.0.1 - - [12/Dec/2015:18:46:43 +0530] "GET /FileDownload/download/dgp/new HTTP/1.1" 200 -

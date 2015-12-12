@@ -1,0 +1,6 @@
+127.0.0.1 - - [10/Dec/2015:01:08:50 +0530] "GET /fileDownloader/welcome HTTP/1.1" 200 975
+127.0.0.1 - - [10/Dec/2015:01:08:50 +0530] "GET /fileDownloader/static/css/app.css;jsessionid=9DC97D8B02A66193599E51BD116EFE4D HTTP/1.1" 200 711
+127.0.0.1 - - [10/Dec/2015:01:08:50 +0530] "GET /fileDownloader/static/css/bootstrap.css;jsessionid=9DC97D8B02A66193599E51BD116EFE4D HTTP/1.1" 200 141414
+127.0.0.1 - - [10/Dec/2015:01:08:58 +0530] "GET /fileDownloader/download/pdf/new;jsessionid=9DC97D8B02A66193599E51BD116EFE4D HTTP/1.1" 200 186616
+127.0.0.1 - - [10/Dec/2015:01:09:04 +0530] "GET /fileDownloader/download/video/new;jsessionid=9DC97D8B02A66193599E51BD116EFE4D HTTP/1.1" 200 10431270
+127.0.0.1 - - [10/Dec/2015:01:09:46 +0530] "GET /fileDownloader/download/video/new.mp4 HTTP/1.1" 200 10431270

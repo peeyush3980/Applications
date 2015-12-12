@@ -1,0 +1,20 @@
+Dec 10, 2015 1:08:21 AM org.apache.catalina.core.ApplicationContext log
+INFO: Spring WebApplicationInitializers detected on classpath: [com.dcp.springmvc.configuration.DCPInitializer@7675afe7]
+Dec 10, 2015 1:08:22 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Dec 10, 2015 1:08:24 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'dispatcher'
+Dec 10, 2015 1:08:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+Dec 10, 2015 1:08:29 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+Dec 10, 2015 1:08:30 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@70299970')
+Dec 10, 2015 1:09:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+Dec 10, 2015 1:09:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+Dec 10, 2015 1:09:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'dispatcher'
+Dec 10, 2015 1:09:57 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
